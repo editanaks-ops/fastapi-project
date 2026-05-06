@@ -39,18 +39,25 @@ http://127.0.0.1:8000
 
 ## Эндпоинты
 1. Главная
+   
    GET /
+   
    Ответ: {"message": "Hello, FastAPI!"}
  2. Приветствие
+    
     GET /hello/{name}
+    
  Пример:
 /hello/Edita
+
 Ответ: {"message": "Привет, Edita!"}
 
 3. Сложение
    GET /sum/{a}/{b}
+   
    Пример:
    /sum/5/7
+   
    Ответ:{"result": 12}
 
  ##  Технологии
